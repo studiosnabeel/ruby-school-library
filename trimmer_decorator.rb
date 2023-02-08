@@ -1,6 +1,6 @@
 require_relative 'decorator'
 
-class TimmerDecorator < Decorator
+class TrimmerDecorator < Decorator
   def correct_name
     return super.slice(0..9) unless super.length <= 10
 
