@@ -1,5 +1,5 @@
 class Rental
-  def initialize(date,book,person)
+  def initialize(date, book, person)
     @date = date
 
     @book = book
