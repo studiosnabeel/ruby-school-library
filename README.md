@@ -32,6 +32,18 @@
   </ul>
 </details>
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **Run a program using the command line.**
+- **Use Ruby syntax for basic programming operations.**
+- **Use Ruby to solve basic coding challenges.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -87,6 +99,9 @@ Example command:
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **Add modules for this project**
+- [ ] **Add UI**
+- [ ] **Add tests**
+- [ ] **Add styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
