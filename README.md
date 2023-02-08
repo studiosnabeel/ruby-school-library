@@ -12,7 +12,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -35,8 +34,6 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **Run a program using the command line.**
 - **Use Ruby syntax for basic programming operations.**
@@ -96,8 +93,6 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **Add modules for this project**
 - [ ] **Add UI**
 - [ ] **Add tests**
@@ -119,9 +114,7 @@ Feel free to check the [issues page](https://github.com/studiosnabeel/ruby-schoo
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project make sure to give a star for the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,15 +122,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
+I would like to thank Microverse and my coding partners for helping me in every way possible.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
