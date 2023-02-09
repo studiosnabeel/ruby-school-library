@@ -6,13 +6,13 @@ require_relative 'rental'
 class App
   def initialize
     @cmd = {
-      '1' : 'List all books',
-      '2' : 'List all people',
-      '3' : 'Create a person',
-      '4' : 'Create a book',
-      '5' : 'Create a rental',
-      '6' : 'List all rentals for a given person   id',
-      '7': 'Exit'
+      '1' => 'List all books',
+      '2' => 'List all people',
+      '3' => 'Create a person',
+      '4' => 'Create a book',
+      '5' => 'Create a rental',
+      '6' => 'List all rentals for a given person   id',
+      '7'=> 'Exit'
         } 
 
     @books = []
@@ -60,7 +60,7 @@ class App
     name = gets.chomp
 
     print 'Has parent permission? [Y/N]: '
-    parent_permission = gets.chomp.downcase
+    permission = gets.chomp.downcase
     
     case permission
     when 'y'
@@ -69,7 +69,7 @@ class App
       then parent_permission = false
     end 
 
-    @people.push(Student.new(age, name, parent_permission: parent_permision))
+    @people.push(Student.new('11', age, name, parent_permission: parent_permission))
   end
 
   def create_teacher
@@ -125,7 +125,7 @@ class App
     print 'Date: '
     date = gets.chomp
 
-    @rentals.push(Rental.new(date, @books[book_index], @people[person_index]))
+    Rental.new(date, @books[book_index], @people[person_index])
 
     puts 'Rental created successfully'
   end
